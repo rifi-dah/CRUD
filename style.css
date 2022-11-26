@@ -48,12 +48,12 @@ input:focus {
 
 #total {
     background: #a00d02;
-    padding: 4px 2px;
+    padding: 5px 2px;
     border-radius: 4px;
 }
 
 #total::before {
-    content: 'TOTAL';
+    content: 'Total:';
 }
 
 button {
@@ -80,6 +80,15 @@ button:hover {
 
 .btnSearch button {
     width: 45%;
+}
+
+#deleteAll {
+    margin: 20px 0;
+
+}
+
+table button:hover {
+    transform: scale(1.1);
 }
 
 table {
